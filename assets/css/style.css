@@ -1,13 +1,4 @@
-/**
 
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -404,7 +395,7 @@ h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 24px;
 }
 
@@ -725,6 +716,55 @@ section {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
+.why-us .accordion-list1 {
+  padding: 0 100px 60px 100px;
+}
+
+.why-us .accordion-list1 ul {
+  padding: 0;
+  list-style: none;
+}
+
+.why-us .accordion-list1 li+li {
+  margin-top: 15px;
+}
+
+.why-us .accordion-list1 li {
+  padding: 20px;
+  background: #f3f5fa;
+  border-radius: 4px;
+}
+
+.why-us .accordion-list1 a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.why-us .accordion-list1 span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.why-us .accordion-list1 i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.why-us .accordion-list1 p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
 
 .why-us .accordion-list .icon-show {
   display: none;
@@ -743,6 +783,25 @@ section {
 }
 
 .why-us .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+.why-us .accordion-list1 .icon-show {
+  display: none;
+}
+
+.why-us .accordion-list1 a.collapsed {
+  color: #343a40;
+}
+
+.why-us .accordion-list1 a.collapsed:hover {
+  color: #47b2e4;
+}
+
+.why-us .accordion-list1 a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.why-us .accordion-list1 a.collapsed .icon-close {
   display: none;
 }
 
@@ -1637,7 +1696,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background:#419581;
 }
 
 #footer .footer-newsletter {
